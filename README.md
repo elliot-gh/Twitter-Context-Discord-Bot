@@ -1,6 +1,6 @@
-# Twitter-Quote-Discord-Bot
+# Twitter-Context-Discord-Bot
 
-Simple Discord bot that replies to linked Twitter URL(s) with quoted tweets, if any. This provides additional context to a linked Tweet as native Discord embeds currently do not show this info.
+Simple Discord bot that replies to linked Twitter URL(s) with quoted/replied tweets, if any. This provides additional context to a linked Tweet as native Discord embeds currently do not show any extra attached tweets.
 
 ## Setup
 

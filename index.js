@@ -8,14 +8,13 @@ const { Client, Intents } = require('discord.js');
 const client = new Client({
   intents: [
     Intents.FLAGS.GUILDS |
-    Intents.FLAGS.GUILD_EMOJIS_AND_STICKERS |
     Intents.FLAGS.GUILD_MESSAGES
   ]
 });
 const util = require('util');
 
 const botPaths = [
-  './twitter_quote_bot.js'
+  './twitter_context_bot.js'
 ];
 
 const bots = [];
