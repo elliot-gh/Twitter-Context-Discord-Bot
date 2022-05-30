@@ -1,18 +1,26 @@
 {
+    "root": true,
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+        "@typescript-eslint"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended"
+    ],
+    "parserOptions": {
+        "project": "tsconfig.json"
+    },
     "env": {
-        "es6": true,
         "node": true
     },
-    "extends": "eslint:recommended",
-    "parserOptions": {
-        "ecmaVersion": 2017,
-        "sourceType": "module"
-    },
     "rules": {
-        // "indent": [
-        //     "warn",
-        //     2
-        // ],
+        "indent": [
+            "warn",
+            4,
+            { "SwitchCase": 1 }
+        ],
         "linebreak-style": [
             "error",
             "unix"
@@ -21,11 +29,13 @@
         "no-unused-vars": "warn",
         "quotes": [
             "error",
-            "single"
+            "double"
         ],
         "semi": [
             "error",
             "always"
-        ]
+        ],
+        "@typescript-eslint/no-floating-promises": "warn",
+        "@typescript-eslint/no-misused-promises": "error"
     }
 }

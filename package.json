@@ -1,26 +1,17 @@
 {
   "name": "twitter-context-discord-bot",
-  "version": "1.1.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/WhipeeDip/Twitter-Context-Discord-Bot.git"
-  },
-  "author": "",
+  "version": "2.0.0",
+  "repository": "git@github.com:elliot-gh/Twitter-Context-Discord-Bot.git",
+  "author": "Elliot",
   "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/WhipeeDip/Twitter-Context-Discord-Bot/issues"
+  "private": true,
+  "type": "module",
+  "packageManager": "yarn@3.2.1",
+  "engines": {
+    "node": ">=16.15.0"
   },
-  "homepage": "https://github.com/WhipeeDip/Twitter-Context-Discord-Bot#readme",
   "dependencies": {
-    "discord.js": "^13.6.0",
-    "dotenv": "^16.0.0",
-    "eslint": "^8.11.0",
-    "lru-cache": "^7.7.1",
-    "twitter-api-v2": "^1.11.2"
+    "lru-cache": "^7.10.1",
+    "twitter-api-v2": "^1.12.2"
   }
 }
